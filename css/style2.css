@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+div{
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  border-radius: 25px;
+  margin-bottom: 5%;
+}
+.first{
+  border: 2px solid #301934;
+  background-color: #b19cd9;
+}
+.jaipur img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 40vh;
+  padding: 5px;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  
+}
+a{
+  margin-top: 2px;
+  color: #e75480;
+  text-decoration: none;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  word-spacing: 2px;
+}
+.second{
+  background-color: #87CEEB;
+  border: 2px solid #191970;
+}
+.second a{
+  color: #ede9df;
+}
+.third{
+  background-color: #ff8c00;
+  border: 2px solid #013220;
+}
+.third a{
+  color: darkred;
+  word-spacing: 2px;
+}
+.four{
+  background-color: #aeaead;
+  border: 2px solid red;
+}
+.four a{
+  color: #34568B;
+}
+.five{
+  background-color:  #0a8901;
+  border: 2px solid #631644;
+}
+.five a{
+  color:  #800080;
+}
+h3{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 8% 0 10% 3%;
+  font-size: 25px;
+  color: #800000;
+}
