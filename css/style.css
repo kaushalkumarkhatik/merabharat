@@ -20,14 +20,12 @@
 body{
   width: 100%;
   height: 100vh;
-  
   background-size: cover;
   background-repeat: no-repeat;
-  transition: all .5s linear;
   animation: image 10s ease-in-out infinite;
 }
 @keyframes image{
-  0%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/Jaipur.jpeg");}
+  5%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/Jaipur.jpeg");}
   25%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/taj.jpeg");}
   50%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/redfort.jpeg");}
   75%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/mumbai.jpeg");}
