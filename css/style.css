@@ -23,6 +23,7 @@ body{
   
   background-size: cover;
   background-repeat: no-repeat;
+  transition: all .5s linear;
   animation: image 10s ease-in-out infinite;
 }
 @keyframes image{
