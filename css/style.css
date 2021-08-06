@@ -25,11 +25,12 @@ body{
   animation: image 10s ease-in-out infinite;
 }
 @keyframes image{
-  5%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/Jaipur.jpeg");}
-  25%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/taj.jpeg");}
-  50%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/redfort.jpeg");}
-  75%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/mumbai.jpeg");}
-  100%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/dar.jpeg");}
+  0%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/Jaipur.jpeg");}
+  10%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/Jaipur.jpeg");}
+  50%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/taj.jpeg");}
+  75%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/redfort.jpeg");}
+  100%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/mumbai.jpeg");}
+  125%{background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/dar.jpeg");}
 }
 nav{
   width: 100;
